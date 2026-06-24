@@ -1,39 +1,186 @@
-📊 Project Name: Yatrikart Real-Time Retail Operations Analytics
+## 🏪 Yatrikart Real-Time Retail Operations Analytics
 
-📝 Project Overview
-This repository features an interactive, multi-view Power BI dashboard designed for Yatrikart, analyzing real-time retail operational logs across multiple regional hubs. In retail environments, tracking sales across diverse inventory types (ranging from daily snacks and beverages to over-the-counter medicines and electronics accessories) can quickly lead to fragmented decision-making.
-The objective of this project was to establish a single source of truth to bridge supply chain costs with ultimate retail profitability. By aggregating complex transactional records into clean visuals, this dashboard empowers business operations managers to monitor shifting retail volume, analyze margin performance on an individual product tier, observe distribution trends across regional cities, and isolate cost vulnerabilities instantaneously.
+---
 
-🚀 Key Features & Insights
-High-Level Financial Auditing: Tracks primary core metrics including total revenue streams, baseline acquisition costs, net business profits, and product pricing layers.
-Inventory Profitability Tracking: Deep dives into exact retail items to balance high-volume goods against high-margin assets.
-Regional Market Assessment: Monitors operational volume across distribution cities to benchmark customer demand and stock allocation levels.
+## 📝 Project Overview
 
-1. Core Financial & Revenue Summary
+The Yatrikart Real-Time Retail Operations Analytics Dashboard was developed to transform complex retail transactional data into actionable business insights. The project focuses on monitoring revenue performance, inventory profitability, regional demand patterns, and operational efficiency across multiple retail hubs.
 
-Visuals Breakdown:
-KPI Summary Cards: Highlights macro performance tracking Sum of Revenue (9M), Sum of Cost (1M), Sum of Profit (3M), Sum of Quantity (55K), and Sum of Price (2M).
-Donut Chart (Total Profit by Product): Splits the net profits by product mix, showcasing balanced margins among Paracetamol (12.52%), Digene (12.71%), Namkeen, Biscuits, Chips, Power Banks, Chargers, and Earphones.
-Waterfall Chart (Cities Count for Categories): Tracks organizational expansions across core segments, visualizing a step-wise growth from Snacks (2.6K) up through Medicine, Beverages, and Accessories to aggregate a final milestone block at 10.0K.
-Complete Data Table Matrix: Granular time-series grid displaying row-level audit trails of transactional fields including category types, regional city labels (e.g., Bhopal), specific product names, and targeted pricing logs.
+By consolidating transactional records into a centralized analytical dashboard, this solution enables business managers to track sales performance, identify profitable products, evaluate cost structures, and optimize inventory allocation across different cities and product categories.
 
-2. Geographic & Category Distribution
+---
 
-Visuals Breakdown:
-KPI Scope Indicators: Identifies a targeted batch profile summarizing a Total Product Quantity baseline of 942 and a Total Product Price scale of 111,744.
-Pie Chart (Product by City): Illustrates an even market distribution across diverse regional hubs including Dewas (13%), Bhopal (12.64%), Jabalpur, Ujjain, Sagar, Indore, Ratlam, and Gwalior.
-Dual-Line Performance Chart (Total Profit by Product Price): Graphs parallel trends contrasting the Sum of Price against the Sum of Profit over inventory models like Digene, Paracetamol, Biscuits, Chips, and Water.
-Clustered Column Chart (Total Category Performance): Side-by-side volume clusters breaking down item volume across four distinct pillars—Accessories, Beverages, Medicine, and Snacks—fully segmented across individual city locations.
+## 🚀 Key Features & Insights
 
-🛠️ Tech Stack Used
-Analytics Tool: Power BI Desktop
-Data Source: Corporate Transactional & Regional Sales Records (Excel / CSV)
-DAX Functions & Metrics: Sum of Revenue, Waterfall Cumulative Step Aggregations, City Volume Segmentation, and Margin-to-Cost Ratios.
+### 💰 Financial Performance Monitoring
+- Track revenue, cost, profit, quantity sold, and pricing metrics.
+- Monitor overall business profitability in real time.
+- Identify revenue-driving products and categories.
 
-📷 Dashboard Screenshots
+### 📦 Inventory Profitability Analysis
+- Compare high-volume products with high-margin products.
+- Evaluate product-level profitability.
+- Understand inventory contribution toward total profit.
 
-1. Core Financial & Revenue Summary
-<img src="Screenshot 2026-06-14 131748.png" width="100%">
+### 🌍 Regional Sales & Demand Analysis
+- Analyze sales performance across multiple cities.
+- Benchmark regional demand trends.
+- Support inventory planning and stock allocation decisions.
 
-2. Geographic & Category Distribution
-<img src="Screenshot 2026-06-14 131824.png" width="100%">
+### 📊 Operational Performance Tracking
+- Monitor category-wise performance.
+- Evaluate market penetration across regions.
+- Analyze business growth through cumulative performance metrics.
+
+---
+
+# 📊 Dashboard 1: Core Financial & Revenue Summary
+
+### Visuals Included
+
+#### 🔹 KPI Summary Cards
+Displays key business metrics:
+- Total Revenue
+- Total Cost
+- Total Profit
+- Total Quantity Sold
+- Total Product Price
+
+#### 🔹 Profit Contribution by Product
+Donut chart showing:
+- Product-wise profit share
+- Margin distribution across inventory
+- Top-performing products
+
+#### 🔹 City Growth Waterfall Analysis
+Waterfall chart visualizing:
+- Category expansion trends
+- Cumulative city-level contribution
+- Operational growth progression
+
+#### 🔹 Transaction Audit Matrix
+Detailed data table containing:
+- Product Categories
+- Regional Cities
+- Product Names
+- Pricing Information
+- Transaction Records
+
+### 📷 Dashboard Screenshot
+
+![Core Financial Dashboard](Screenshot%202026-06-14%20131748.png)
+
+---
+
+# 📊 Dashboard 2: Geographic & Category Distribution
+
+### Visuals Included
+
+#### 🔹 KPI Scope Indicators
+Tracks:
+- Total Product Quantity
+- Total Product Price
+- Inventory Scale Metrics
+
+#### 🔹 Product Distribution by City
+Pie chart showing:
+- City-wise product distribution
+- Regional sales contribution
+- Market coverage analysis
+
+#### 🔹 Profit vs Product Price Analysis
+Dual-line chart comparing:
+- Product Pricing Trends
+- Product Profitability Trends
+- Margin Performance
+
+#### 🔹 Category Performance by City
+Clustered column chart displaying:
+- Accessories Performance
+- Beverages Performance
+- Medicine Performance
+- Snacks Performance
+- City-wise category comparison
+
+### 📷 Dashboard Screenshot
+
+![Geographic Dashboard](Screenshot%202026-06-14%20131824.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- Power BI Desktop
+- Power Query
+- DAX (Data Analysis Expressions)
+- Excel / CSV Dataset
+- Data Modeling & Relationships
+
+### Key DAX Metrics
+
+- Total Revenue
+- Total Cost
+- Total Profit
+- Margin-to-Cost Ratio
+- Product Quantity
+- Product Price
+- City Volume Distribution
+- Waterfall Aggregations
+
+---
+
+## 📂 Dataset
+
+The dataset contains retail transactional and operational records including:
+
+- Product Categories
+- Product Names
+- Sales Revenue
+- Cost Price
+- Profit Values
+- Product Quantity
+- Product Price
+- City Information
+- Transaction Logs
+
+---
+
+## 📈 Skills Demonstrated
+
+- Data Cleaning & Transformation
+- Data Modeling
+- DAX Calculations
+- Retail Analytics
+- Inventory Analysis
+- Profitability Analysis
+- KPI Development
+- Interactive Dashboard Design
+- Business Intelligence Reporting
+
+---
+
+## 🎯 Business Value
+
+✅ Monitor real-time retail performance
+
+✅ Analyze revenue, cost, and profit trends
+
+✅ Identify high-margin and high-volume products
+
+✅ Evaluate regional sales distribution
+
+✅ Optimize inventory allocation strategies
+
+✅ Support data-driven operational decision making
+
+---
+
+## 🔗 Project Link
+
+### GitHub Repository
+
+👉 https://github.com/palaktonke06-a11y/Yatrikart-Dashboard
+
+---
+
+⭐ If you found this project useful, don't forget to star the repository.
